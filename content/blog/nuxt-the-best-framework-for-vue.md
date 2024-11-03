@@ -2,6 +2,8 @@
 title: Introduction to Nuxt.js - The Intuitive Vue Framework
 description: A comprehensive guide to getting started with Nuxt.js, covering its features, benefits, and modern web application development.
 icon: 🚀
+
+img: "/images/nuxt.png"
 lang: en
 head:
   meta:
@@ -28,6 +30,8 @@ head:
     - name: "category"
       content: "Web Development"
 ---
+
+![Nuxt.js](/images/nuxt.png)
 
 # Introduction to Nuxt.js
 
