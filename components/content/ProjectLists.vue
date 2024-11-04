@@ -29,9 +29,9 @@ const projects = computed(() => {
 });
 </script>
 <template>
-  <section class="max-w-3xl mx-auto m-10 not-prose">
+  <section class="max-w-none mx-auto my-10 not-prose">
     <div class="flex items-center space-x-4 p-4">
-      <div>date</div>
+      <div>Date</div>
       <div>Projects</div>
     </div>
     <div v-for="project in projects" :key="project._path">

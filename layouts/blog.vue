@@ -8,7 +8,7 @@ useHead({
 <template>
   <div class="min-h-screen">
     <AppHeader />
-    <div class="max-w-3xl m-10 mx-auto px-4">
+    <div class="max-w-6xl m-10 mx-auto px-4">
       <div class="grid grid-cols-1 md:grid-cols-blog gap-4">
         <!-- Main content area -->
         <main class="min-h-screen">

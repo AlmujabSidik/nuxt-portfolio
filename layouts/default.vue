@@ -8,7 +8,7 @@ useHead({
 
 <template>
   <AppHeader />
-  <main class="w-full">
+  <main class="container max-w-3xl mx-auto">
     <slot />
   </main>
 </template>

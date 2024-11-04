@@ -12,8 +12,8 @@ const { data: posts } = await useAsyncData("blog-list", () => {
 </script>
 
 <template>
-  <section class="max-w-3xl mx-auto m-10">
-    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 not-prose">
+  <section class="max-w-none my-10">
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 not-prose">
       <div
         v-for="post in posts"
         :key="post._path"
@@ -44,12 +44,12 @@ const { data: posts } = await useAsyncData("blog-list", () => {
   </section>
 </template>
 
-<style>
+<style scoped>
 .prose h2 {
-  @apply text-xl tracking-tighter font-medium text-zinc-800 dark:text-zinc-300;
+  @apply text-lg tracking-tighter font-medium text-zinc-800 dark:text-zinc-300;
 }
 
 .prose p {
-  @apply text-sm font-normal text-gray-500 tracking-tighter dark:text-zinc-200;
+  @apply text-sm font-light text-gray-400 tracking-tighter dark:text-zinc-200;
 }
 </style>

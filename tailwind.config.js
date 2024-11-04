@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       gridTemplateColumns: {
-        blog: "3fr 1.5fr",
+        blog: "3fr 1fr",
       },
     },
   },

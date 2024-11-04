@@ -4,6 +4,7 @@ description: Discover Vue.js - the progressive JavaScript framework for building
 icon: 💚
 img: "/images/vueimg.png"
 lang: en
+toc: true
 
 # Open Graph tags
 og:title: Understanding Vue.js - The Progressive JavaScript Framework
